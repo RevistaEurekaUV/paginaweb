@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Oxanium", sans-serif;
+    line-height: 1.6;
+    color: #cfb6b6;
+}
+
+header {
+    background-color: #4CAF50;
+    color: #e15e5e;
+    padding: 1rem;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 0.5rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+nav a {
+    color: #a03a3a;
+    text-decoration: none;
+}
+
+#hero {
+    background: url('ciencia.jpg') no-repeat center center/cover;
+    color: #ee4848;
+    text-align: center;
+    padding: 2rem;
+}
+
+#articulos {
+    padding: 2rem;
+}
+
+article {
+    border-bottom: 1px solid #9d1b1b;
+    padding: 1rem 0;
+}
+
+article h3 {
+    color: #4CAF50;
+}
+
+footer {
+    background-color: #333;
+    color: #9c2929;
+    text-align: center;
+    padding: 1rem;
+}
+
+footer a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+body {
+    font-family: Arial, sans-serif;
+}
+/* Para hacer que el contenedor ocupe todo el ancho */
+.imagen-inicial {
+    width: 100%; /* Ocupa todo el ancho de la pantalla */
+    height: 300px; /* Ajusta la altura según tus necesidades */
+    overflow: hidden; /* Oculta cualquier parte de la imagen que sobresalga */
+}
+
+/* Para el contenedor de fondo */
+.fondo-mitad {
+    width: 100%; /* Ancho completo */
+    height: 50vh; /* Altura: 50% de la altura de la pantalla */
+    background-image: url("images/FondoREUV.jpg");
+    background-size: cover; /* Hace que la imagen cubra todo el contenedor */
+    background-position: center; /* Centra la imagen */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white; /* Color de texto en el fondo */
+}
+
+h1 {
+    font-size: 2em;
+    text-align: center;
+}
